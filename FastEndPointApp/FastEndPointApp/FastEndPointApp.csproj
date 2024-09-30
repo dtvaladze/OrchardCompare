@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.29.0.12-beta" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.29.0.12-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\tvala\source\repos\FastEndPointApp\FastEndPointApp\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\tvala\source\repos\FastEndPointApp\FastEndPointApp\.editorconfig" />
+  </ItemGroup>
+
+</Project>

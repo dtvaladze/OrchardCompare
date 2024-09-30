@@ -1,0 +1,126 @@
+[
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "products",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Product",
+        "Type": "FastEndPointApp.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FastEndPointAppCRUDProdCreateProductEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "products",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FastEndPointAppCRUDProdGetProductsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "products",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Product",
+        "Type": "FastEndPointApp.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FastEndPointAppCRUDProdUpdateProductEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "products/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductRequest",
+        "Type": "FastEndPointApp.Model.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FastEndPointAppCRUDProdDeleteProductEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "products/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductRequest",
+        "Type": "FastEndPointApp.Model.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FastEndPointAppCRUDProdGetProductByIdEndpoint"
+  }
+]
